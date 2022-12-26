@@ -1,0 +1,149 @@
+.Game-Container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+}
+
+.Timer {
+  align-self: flex-start;
+
+  /* background: #dfe3eb; */
+
+  /* color: #282c34; */
+  background: #282c34;
+  color: #dfe3eb;
+  justify-content: space-around;
+  left: 1rem;
+  width: 68px;
+}
+
+.Timer, .Difficulty {
+  align-items: center;
+  border-radius: 12px;
+  display: flex;
+  padding: 0.5rem;
+  position: absolute;
+  top: 1rem;
+}
+
+.Difficulty {
+  font-size: 2rem;
+  right: 1rem;
+}
+
+.easy { color: #b8b42d; }
+
+.medium { color: #ffd31a; }
+
+.hard { color: #dd403a; }
+
+.Timer p {
+  font-size: 2rem;
+  margin-top: 2px;
+}
+
+.Timer svg { font-size: 3rem; }
+
+.Game-Question {
+  display: flex;
+  flex-flow: column wrap;
+  gap: 1rem;
+  width: 85%;
+}
+
+.Game, .Loading {
+  align-items: center;
+  display: flex;
+  flex-flow: column nowrap;
+  height: 90vh;
+  justify-content: space-evenly;
+  margin-top: 10vh;
+  width: 100vw;
+}
+
+.Loading {
+  font-size: 5rem;
+  height: auto;
+  margin: 0;
+  width: 10%;
+}
+
+.Informations-Container {
+  align-items: center;
+  background: #282c34;
+  border-radius: 12px;
+  box-shadow: 1px 1px 10px rgb(62 54 63 / 46%);
+  color: #dfe3eb;
+  display: flex;
+  flex-direction: column;
+  font-size: 1.6rem;
+  height: 25vh;
+  justify-content: center;
+  padding: 2rem 0;
+  position: relative;
+  text-align: center;
+  width: 720px;
+}
+
+.Answers-Container {
+  align-items: center;
+
+  /* background-color: #dfe3eb; */
+  background-color: #282c34;
+  border-radius: 6px;
+  box-shadow: 1px 1px 10px rgba(62, 54, 63, 0.459);
+  display: flex;
+  flex-flow: row wrap;
+  height: 45vh;
+  justify-content: space-evenly;
+  position: relative;
+  width: 600px;
+}
+
+.Answers-Container button {
+  background-color: #dfe3eb;
+  border: none;
+  border-radius: 6px;
+  /* color: #282c34 ! important; */
+  font-size: 2.2rem;
+  height: 112px;
+  inline-size: 100%;
+  overflow-wrap: break-word;
+  padding: 4px;
+  transition: 0.2s;
+  width: 250px;
+}
+
+.Next-BtnContainer {
+  height: 8vh;
+}
+
+.Next-Button {
+
+  /* background: #dfe3eb; */
+  background: #282c34;
+  border-radius: 6px;
+  box-shadow: 1px 1px 10px rgb(62 54 63 / 46%);
+  color: white;
+  cursor: pointer;
+  font-size: 2.2rem;
+  height: 100%;
+  width: 250px;
+}
+
+.Answer-Result {
+  font-size: 3rem;
+  position: absolute;
+  top: -6px;
+}
+
+.Visible {
+  visibility: visible;
+}
+
+.Hide {
+  visibility: hidden;
+}
+
